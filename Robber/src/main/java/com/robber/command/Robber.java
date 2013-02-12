@@ -6,8 +6,6 @@ package com.robber.command;
 /**
  * Command object for a Robber.
  * 
-
-
  * @author Sivaprakash Thiyagarajan (sivaprakasht@hotmail.com).
  */
 public class Robber {
@@ -16,12 +14,12 @@ public class Robber {
 	 * Name of the robber.
 	 */
 	String name;
-	
+
 	/**
 	 * User name of the robber, to log on.
 	 */
 	String userName;
-	
+
 	/**
 	 * Password of the robber to log on.
 	 */
@@ -39,7 +37,8 @@ public class Robber {
 	/**
 	 * Sets the name of the robber.
 	 * 
-	 * @param name the name to set.
+	 * @param name
+	 *            the name to set.
 	 */
 	public void setName(String name) {
 		this.name = name;
@@ -57,7 +56,8 @@ public class Robber {
 	/**
 	 * Sets the user name of the robber.
 	 * 
-	 * @param userName the userName to set.
+	 * @param userName
+	 *            the userName to set.
 	 */
 	public void setUserName(String userName) {
 		this.userName = userName;
@@ -75,7 +75,8 @@ public class Robber {
 	/**
 	 * Sets the password for the robber.
 	 * 
-	 * @param password the password to set
+	 * @param password
+	 *            the password to set
 	 */
 	public void setPassword(String password) {
 		this.password = password;
