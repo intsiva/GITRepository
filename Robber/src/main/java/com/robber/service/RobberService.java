@@ -1,5 +1,5 @@
 package com.robber.service;
 
-public class RobberService {
+public interface RobberService {
 
 }

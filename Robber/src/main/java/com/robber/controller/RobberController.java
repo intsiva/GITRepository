@@ -9,7 +9,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class RobberController {
-
+	/**
+	 * @return
+	 */
 	@RequestMapping("showLogin.do")
 	public ModelAndView showLogin(){
 		ModelAndView mav = new ModelAndView();
@@ -17,6 +19,9 @@ public class RobberController {
 		return mav;
 	}
 	
+	/**
+	 * @return
+	 */
 	public ModelAndView authenticateUser(){
 		ModelAndView mav = new ModelAndView();
 		if(isValidUser()){
@@ -27,6 +32,9 @@ public class RobberController {
 		return mav;
 	}
 	
+	/**
+	 * @return
+	 */
 	private boolean isValidUser(){
 		return true;
 	}
